@@ -1,0 +1,36 @@
+Script started on Thu Feb 26 17:16:22 2026
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day3Filereading % [K[?2004hconda activate base[19Dclaude             [13Dcd deep_dive_code[17Dclaude           [11Dconda activate base[19D                   [19D../. ./extractInt[?2004l
+Enter the input filename: perLine.txt
+
+file opened successfully
+File Size: original position: 0
+54
+The number of line we have is: 9
+You can now open intVals.txt and junkVals.txt to see the output!
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day3Filereading % [K[?2004h./extractInt[12Dconda [3Civate base[19D./extr[3CInt       [12D            [12D./extractInt[?2004l
+Enter the input filename: perl Line.txt
+
+file opened successfully
+File Size: original position: 0
+54
+The number of line we have is: 9
+You can now open intVals.txt and junkVals.txt to see the output!
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day3Filereading % [K[?2004h./extractInt[?2004l
+Enter the input filename: perlin   Line.txt
+
+file opened successfully
+File Size: original position: 0
+54
+The number of line we have is: 9
+You can now open intVals.txt and junkVals.txt to see the output!
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day3Filereading % [K[?2004h./extractInt[?2004l
+Enter the input filename: perLine.txt
+
+file opened successfully
+File Size: original position: 0
+54
+The number of line we have is: 9
+You can now open intVals.txt and junkVals.txt to see the output!
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day3Filereading % [K[?2004heexit[?2004l
+
+Script done on Thu Feb 26 18:56:50 2026
