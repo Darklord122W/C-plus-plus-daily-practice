@@ -1,0 +1,48 @@
+Script started on Wed Mar 25 10:50:19 2026
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h../arrayPointer[?2004l
+Enter array size: 5
+array1: 0 1 2 3 4 
+array2: 1 3 
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h./arrayPointer[?2004l
+Enter array size: 6
+array1: 0 1 2 3 4 5 
+array2: 1 3 5 
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h./arrayPointer[?2004l
+Enter array size: 2
+array1: 0 1 
+array2: 1 
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h./arrayPointer[?2004l
+Enter array size: 3
+array1: 0 1 2 
+array2: 1 
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h./arrayPointer[?2004l
+Enter array size: 1
+array1: 0 
+array2: 
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h./arrayPointer            .  [7mg++ *.cpp -o refSegFault[27m
+[K[A[58C[27mg[27m+[27m+[27m [27m*[27m.[27mc[27mp[27mp[27m [27m-[27mo[27m [27mr[27me[27mf[27mS[27me[27mg[27mF[27ma[27mu[27ml[27mt[1B[K[?2004l
+duplicate symbol '_main' in:
+    /private/var/folders/hc/cv1z4zn94cx58tq6x191838h0000gn/T/arrayPointer-bd773d.o
+    /private/var/folders/hc/cv1z4zn94cx58tq6x191838h0000gn/T/refSegFault-925811.o
+ld: 1 duplicate symbols
+clang++: [0;1;31merror: [0m[1mlinker command failed with exit code 1 (use -v to see invocation)[0m
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h../refSegFault.dSYM[1m/[0m[0m [?2004l
+zsh: permission denied: ./refSegFault.dSYM
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h./refSegFault.dSYM[18D                  [18D./refSegFault.dSYM     [?2004l
+zsh: no such file or directory: ./refSegFault
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h./refSegFault.dSYM[18Dg++ *.cpp -o refSegFault
+[K[A[58C./[11P[11C.dSYM      [1B[K[A[76C     [13D             [13D[7mg++ -Wall -g -std=c++17 refSegFault.cpp -o refSegFault[1B[27m[K[A[58C[27mg[27m+[27m+[27m [27m-[27mW[27ma[27ml[27ml[27m [27m-[27mg[27m [27m-[27ms[27mt[27md[27m=[27mc[27m+[27m+[27m1[27m7[27m [27mr[27me[27mf[27mS[27me[27mg[27mF[27ma[27mu[27ml[27mt[27m.[27mc[27mp[27mp[27m [27m-[27mo[27m [27mr[27me[27mf[27mS[27me[27mg[27mF[27ma[27mu[27ml[27mt[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004hg++ -Wall -g -std=c++17 refSegFault.cpp -o refSegFault
+[K[A[58C                                                      [1B[K[A[58Cg++ -Wall -g -std=c++17 refSegFault.cpp -o refSegFault[1B[K[K[A[58C./[22P[11C                                         [1B[K[A[71C[?2004l[1B0[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004h./refSegFault[13Dg++ -Wall -g -std=c++17 refSegFault.cpp -o refSegFault
+[K[K[?2004l
+[1mrefSegFault.cpp:5:12: [0m[0;1;35mwarning: [0m[1mreference to stack memory associated with local variable 'localVar' returned [-Wreturn-stack-address][0m
+    5 |     [0;34mreturn[0m localVar;  [0;33m// Returning reference to local variable[0m
+      | [0;1;32m           ^~~~~~~~
+[0m1 warning generated.
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004hg++ -Wall -g -std=c++17 refSegFault.cpp -o refSegFault
+[K[K[A[58C./[22P[11C                                         [1B[K[A[71C[?2004l[1B42
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004heexir[?2004l
+zsh: command not found: exir
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day5arrays_variables_pointers % [K[?2004heezi e exit[?2004l
+
+Script done on Wed Mar 25 10:53:02 2026
