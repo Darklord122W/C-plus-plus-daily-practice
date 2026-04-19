@@ -1,0 +1,92 @@
+Script started on Thu Apr 16 14:32:32 2026
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h../a.out[1m [0m[0m [?2004l
+var = 1
+var = 0
+var = 0
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hgg++ classes.cpp[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h.
+[J.                                  .nb_conda_kernels-post-link.bat    .nb_conda_kernels-pre-unlink.sh    
+.anaconda-navigator-post-link.sh   .nb_conda_kernels-post-link.sh     .python.app-post-link.sh           
+.anaconda-navigator-pre-unlink.sh  .nb_conda_kernels-pre-unlink.bat   .python.app-pre-unlink.sh          [3A[0m[27m[24m[44C.[K./a.out[1m [0m[0m [?2004l
+[Jvar = 1
+var = 0
+varB = 0
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./a.outg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8D[?2004l
+var = 0
+var = 0
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./a.outg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8D[?2004l
+var = 0
+var = 0
+var = 0
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./a.outg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8D[?2004l
+var = 0
+var = 0
+var = 0
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./a.outg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8D[?2004l
+var = 0
+var = 0
+var = 0
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./a.outg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8D[?2004l
+var = 10
+var = 10
+var = 10
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./a.outg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8Dg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8D[?2004l
+good accept class b object
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./a.outg++ classes.cpp[?2004l
+[1mclasses.cpp:44:15: [0m[0;1;31merror: [0m[1mcannot cast 'const B' to its private base class 'const A'[0m
+   44 | processObject(b);[0m
+      | [0;1;32m              ^
+[0m[1mclasses.cpp:12:11: [0m[0;1;36mnote: [0mimplicitly declared private here[0m
+   12 | [0;34mclass[0m B : A {[0m
+      | [0;1;32m          ^
+[0m1 error generated.
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./a.outg++ classes.cpp[?2004l
+[1mclasses.cpp:43:3: [0m[0;1;31merror: [0m[1m'A' is a private member of 'A'[0m
+   43 | b.A::print();[0m
+      | [0;1;32m  ^
+[0m[1mclasses.cpp:12:12: [0m[0;1;36mnote: [0mconstrained by implicitly private inheritance here[0m
+   12 | [0;34mclass[0m B :  A {[0m
+      | [0;1;32m           ^
+[0m[1mclasses.cpp:3:7: [0m[0;1;36mnote: [0mmember is declared here[0m
+    3 | [0;34mclass[0m A {[0m
+      | [0;1;32m      ^
+[0m[1mclasses.cpp:43:1: [0m[0;1;31merror: [0m[1mcannot cast 'B' to its private base class 'A'[0m
+   43 | b.A::print();[0m
+      | [0;1;32m^
+[0m[1mclasses.cpp:12:12: [0m[0;1;36mnote: [0mimplicitly declared private here[0m
+   12 | [0;34mclass[0m B :  A {[0m
+      | [0;1;32m           ^
+[0m2 errors generated.
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[15D./a.out        [8Dg++ classes.cpp[?2004l
+[1mclasses.cpp:43:3: [0m[0;1;31merror: [0m[1m'A' is a private member of 'A'[0m
+   43 | b.A::print();[0m
+      | [0;1;32m  ^
+[0m[1mclasses.cpp:12:12: [0m[0;1;36mnote: [0mconstrained by implicitly private inheritance here[0m
+   12 | [0;34mclass[0m B :  A {[0m
+      | [0;1;32m           ^
+[0m[1mclasses.cpp:3:7: [0m[0;1;36mnote: [0mmember is declared here[0m
+    3 | [0;34mclass[0m A {[0m
+      | [0;1;32m      ^
+[0m[1mclasses.cpp:43:1: [0m[0;1;31merror: [0m[1mcannot cast 'B' to its private base class 'A'[0m
+   43 | b.A::print();[0m
+      | [0;1;32m^
+[0m[1mclasses.cpp:12:12: [0m[0;1;36mnote: [0mimplicitly declared private here[0m
+   12 | [0;34mclass[0m B :  A {[0m
+      | [0;1;32m           ^
+[0m2 errors generated.
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ classes.cpp            g  g++ classes.cpp[15D./a.out        [8Dg++ classes.cpp[15D./a.out        [8D[?2004l
+var = 10
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004he eexit[?2004l
+
+Script done on Fri Apr 17 16:47:50 2026

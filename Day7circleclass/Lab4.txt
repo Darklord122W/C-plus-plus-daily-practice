@@ -1,0 +1,18 @@
+Script started on Fri Apr  3 19:34:44 2026
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day7circleclass % [K[?2004hlscd NoteDocuments[12Dls          [10Dcd Documents[9DNote     ls       ../test[?2004l
+Default circle: Radius: 5 at point x = 0, y = 0
+Circle c2: Radius: 7.5 at point x = 3, y = 4
+Copy of c2 (c3): Radius: 7.5 at point x = 3, y = 4
+c1 radius: 5, x: 0, y: 0
+c1 after setters: Radius: 4 at point x = 2, y = -3
+Invalid radius: must be greater than 0.
+c2 after translate(2,-1): Radius: 7.5 at point x = 5, y = 3
+Area of c1: 50.2654
+c4 and c5 intersect: true
+c4 and c6 intersect: false
+c7 == c8: true
+c7 == c9: false
+c10 + c11: Radius: 10 at point x = 3, y = -5
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day7circleclass % [K[?2004heexit[?2004l
+
+Script done on Fri Apr  3 19:34:55 2026

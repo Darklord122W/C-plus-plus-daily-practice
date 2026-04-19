@@ -1,0 +1,24 @@
+Script started on Fri Apr 17 17:22:36 2026
+[1m[7m%[27m[1m[0m                                                                                                                [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hexit./exercise2[?2004l
+Circle: 10 | Area = 314.159
+Rectangle: 3, 4 | Area = 12
+Trapezoid: 3, 4, 5 | Area = 16
+[1m[7m%[27m[1m[0m                                                                                                                [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h./exercise2[11Dexit       ./exercise2[11Dexit       ./a.outg++ classes.cpp            g  [7mg++ main.cpp Shapes.cpp -o exercise2[27m[36D[27mg[27m+[27m+[27m [27mm[27ma[27mi[27mn[27m.[27mc[27mp[27mp[27m [27mS[27mh[27ma[27mp[27me[27ms[27m.[27mc[27mp[27mp[27m [27m-[27mo[27m [27me[27mx[27me[27mr[27mc[27mi[27ms[27me[27m2[?2004l
+[1mmain.cpp:14:19: [0m[0;1;31merror: [0m[1mvariable type 'Quadrilateral' is an abstract class[0m
+   14 |     Quadrilateral q([0;32m2[0m, [0;32m4[0m); [0;33m// This will cause a compiler error as requested.[0m
+      | [0;1;32m                  ^
+[0m[1m./Shape.h:7:20: [0m[0;1;36mnote: [0munimplemented pure virtual method 'area' in 'Quadrilateral'[0m
+    7 |     [0;34mvirtual[0m [0;34mdouble[0m area() [0;34mconst[0m = [0;32m0[0m;      [0;33m// Pure virtual function[0m
+      | [0;1;32m                   ^
+[0m[1m./Shape.h:8:18: [0m[0;1;36mnote: [0munimplemented pure virtual method 'display' in 'Quadrilateral'[0m
+    8 |     [0;34mvirtual[0m [0;34mvoid[0m display() [0;34mconst[0m = [0;32m0[0m;     [0;33m// Pure virtual function[0m
+      | [0;1;32m                 ^
+[0m1 error generated.
+[1m[7m%[27m[1m[0m                                                                                                                [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004hg++ main.cpp Shapes.cpp -o exercise2[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004h../exercise2[1m [0m[0m [?2004l
+Circle: 10 | Area = 314.159
+Rectangle: 3, 4 | Area = 12
+Trapezoid: 3, 4, 5 | Area = 16
+[1m[7m%[27m[1m[0m                                                                                                                [0m[27m[24m[J(base) ccs_mac@Darklord-2 Day8Inheritance % [K[?2004heexit[?2004l
+
+Script done on Fri Apr 17 17:24:24 2026
