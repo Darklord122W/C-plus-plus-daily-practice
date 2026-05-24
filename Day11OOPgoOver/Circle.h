@@ -13,10 +13,11 @@ public:
     void translate(int horizShift, int vertShift);
     double getarea(void);
     void displayCircle(void);
-    bool intersect(Circle C);
+    bool intersect(const Circle &C) const;
+    bool operator==(const Circle& other) const;
+    Circle operator+(const Circle& other) const;
 
 };
-
 
 
 #endif

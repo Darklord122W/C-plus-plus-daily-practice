@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(g++ -std=c++17 Circle.cpp main.cpp -o circle_test)",
+      "Bash(./circle_test)"
+    ]
+  }
+}
