@@ -1,23 +1,17 @@
-#ifndef a
-#define a
+#ifndef MOVIE_H
+#define MOVIE_H
 #include <string>
 #include <iostream>
 
-enum class MovieRating {
-    G,
-    PG,
-    PG_13, // Hyphens aren't allowed in variable names, so we use an underscore
-    R
-};
 
 class Movie{
     private:
         std::string name;
-        MovieRating rating;
+        std::string rating;
         int watched;
-        Movie(std::string name,MovieRating rating,int watched);
+        Movie(std::string name,std::string rating,int watched);
         friend class Movies;
-        
+        std::string get_name() const;
 
 
 

@@ -10,7 +10,7 @@
 
 // Function prototypes
 void increment_watched(Movies &movies, std::string name);
-void add_movie(Movies &movies, std::string name, MovieRating rating, int watched);
+void add_movie(Movies &movies, std::string name, std::string rating, int watched);
 
 /******************************************************************
  * helper function 
@@ -41,7 +41,7 @@ void increment_watched(Movies &movies, std::string name) {
 *  otherwise the movie was not added 
 *  because the name of the movie was already in movies
  * ***************************************************************/
-void add_movie(Movies &movies, std::string name, MovieRating rating, int watched) {
+void add_movie(Movies &movies, std::string name, std::string rating, int watched) {
     if (movies.add_movie(name,rating,watched)) {
         std::cout << name << " added" << std::endl;
     } else {
