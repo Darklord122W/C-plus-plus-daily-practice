@@ -14,7 +14,7 @@ class Movies{
         bool increment_watched(std::string name);
         Movies();
         Movies(const Movies &source); // copy constructor
-        Movies(Movies &&source); //move constructor
+        Movies(Movies &&source) noexcept; //move constructor
         ~Movies();
 
 
