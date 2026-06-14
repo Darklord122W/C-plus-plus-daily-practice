@@ -57,3 +57,11 @@ Movies::~Movies(){
 	}
 	delete m_list;
 }
+Movies& Movies::operator=(const Movies &rhs){
+    if(this==&rhs) //here is the address of rhs
+        return *this; //this is a pointer of the current object, but *this is the actual object of that address 
+    delete m_list;//delete [] is for an array of the object, while delelte is for a single object.
+    m_list = new std::vector<Movie>(*rhs.m_list);
+    return *this;
+
+}

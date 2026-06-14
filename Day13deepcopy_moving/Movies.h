@@ -17,7 +17,7 @@ class Movies{
         Movies(Movies &&source) noexcept; //move constructor
         ~Movies();
 
-
+    Movies& operator=(const Movies &rhs);
 
 };
 
