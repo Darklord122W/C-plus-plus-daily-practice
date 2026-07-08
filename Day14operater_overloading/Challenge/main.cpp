@@ -6,12 +6,14 @@
 using namespace std;
 
 int main() {
-    /*
     
-    cout << boolalpha << endl;
-    Mystring a {"frank"};
+    
+    // cout << boolalpha << endl;
+    Mystring a {"DUSTIN"};
     Mystring b {"frank"};
-
+    b=a.operator-();
+    cout<<b.get_str()<<endl;
+    /*
     cout << (a==b) << endl;         // true
     cout << (a!=b) << endl;          // false
     
