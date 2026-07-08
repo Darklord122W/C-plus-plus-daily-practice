@@ -90,3 +90,8 @@ std::istream &operator>>(std::istream &in, Mystring &rhs) {
     return in;
 }
 
+Mystring Mystring::operator-() const{
+    char *buff=new char[std::strlen(str)+1]
+
+
+} // make lowercase
