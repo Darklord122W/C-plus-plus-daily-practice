@@ -24,8 +24,11 @@ public:
     const char *get_str() const;
 
     Mystring operator-() const; // make lowercase
-    Mystring operator==(const Mystring& rhs) const;
-    
+    bool operator==(const Mystring& rhs) const;
+    bool operator!=(const Mystring& rhs) const;
+    bool operator<(const Mystring& rhs) const;
+    bool operator>(const Mystring& rhs) const;
+    Mystring operator+(const Mystring& rhs) const; //combine str
 
 };
 

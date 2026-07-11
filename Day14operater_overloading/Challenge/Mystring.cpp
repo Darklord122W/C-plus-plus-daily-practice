@@ -101,3 +101,39 @@ Mystring Mystring::operator-() const{
     return temp;
 
 } // make lowercase
+    
+bool Mystring::operator==(const Mystring& rhs) const{
+    if(std::strcmp(str,rhs.str)==0){
+        return true;
+    } 
+    else{
+        return false;
+    }
+}
+bool Mystring::operator!=(const Mystring& rhs) const{
+    if(std::strcmp(str,rhs.str)!=0){
+        return true;
+    } 
+    return false;
+}
+bool Mystring::operator<(const Mystring& rhs) const{
+    if(std::strlen(str)<std::strlen(rhs.str)){
+        return true;
+    } 
+    return false;
+}
+bool Mystring::operator>(const Mystring& rhs) const{
+    if(std::strlen(str)>std::strlen(rhs.str)){
+        return true;
+    } 
+    return false;
+}
+Mystring Mystring::operator+(const Mystring& rhs) const{
+    char *buff=new char[std::strlen(str)+std::strlen(str)+1];
+    std::strcpy(buff, str);
+    std::strcat(buff, rhs.str);
+    Mystring temp{buff};
+    delete [] buff;
+    return temp;
+
+} // make lowercase

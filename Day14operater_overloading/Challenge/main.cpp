@@ -9,13 +9,19 @@ int main() {
     
     
     // cout << boolalpha << endl;
-    Mystring a {"DUSTIN"};
+    Mystring a {"frank"};
     Mystring b {"frank"};
-    b=a.operator-();
-    cout<<b.get_str()<<endl;
-    /*
-    cout << (a==b) << endl;         // true
-    cout << (a!=b) << endl;          // false
+    // b=a.operator-();
+    // cout<<b.get_str()<<endl;
+    if(a==b){
+    cout << "same" << endl;         // true
+    }
+    else{
+    cout <<"not the same!"<< endl; 
+    }
+    if(a!=b){
+    cout << "not the same"<< endl;          // false
+    }
     
     b = "george";
     cout << (a==b) << endl;         // false
@@ -26,10 +32,11 @@ int main() {
     Mystring s1 {"FRANK"};
     s1 = -s1;       
     cout << s1 << endl;               // frank              
+    
 
     s1 = s1 + "*****";
     cout << s1 << endl;               // frank*****       
-    
+    /*
     s1 += "-----";                        // frank*****-----
     cout << s1 << endl;
     
