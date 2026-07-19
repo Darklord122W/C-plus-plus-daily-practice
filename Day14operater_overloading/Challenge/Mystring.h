@@ -29,6 +29,7 @@ public:
     bool operator<(const Mystring& rhs) const;
     bool operator>(const Mystring& rhs) const;
     Mystring operator+(const Mystring& rhs) const; //combine str
+    Mystring& operator+=(const Mystring& rhs); 
 
 };
 

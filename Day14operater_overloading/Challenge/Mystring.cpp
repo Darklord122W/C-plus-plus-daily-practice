@@ -136,4 +136,13 @@ Mystring Mystring::operator+(const Mystring& rhs) const{
     delete [] buff;
     return temp;
 
-} // make lowercase
+} 
+
+Mystring& Mystring::operator+=(const Mystring& rhs){
+    char *buff=new char[std::strlen(this->str)+std::strlen(rhs.str)+1];
+    std::strcpy(buff, str);
+    std::strcat(buff, rhs.str);
+    delete [] str; //free old str
+    str=buff;
+    return *this;
+}    
