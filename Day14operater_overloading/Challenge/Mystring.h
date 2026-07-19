@@ -30,6 +30,8 @@ public:
     bool operator>(const Mystring& rhs) const;
     Mystring operator+(const Mystring& rhs) const; //combine str
     Mystring& operator+=(const Mystring& rhs); 
+    Mystring operator*(int rhs)const; //multiply number
+    Mystring& operator*=(int rhs); 
 
 };
 

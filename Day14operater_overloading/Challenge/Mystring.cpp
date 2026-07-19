@@ -146,3 +146,26 @@ Mystring& Mystring::operator+=(const Mystring& rhs){
     str=buff;
     return *this;
 }    
+
+Mystring Mystring::operator*(int rhs) const{
+    char *buff=new char[std::strlen(str)*rhs+1];
+    std::strcpy(buff, str);
+    for(int i=0;i<rhs-1;i++){
+    std::strcat(buff,str);
+    }
+    Mystring temp{buff};
+    delete [] buff;
+    return temp;
+
+} 
+
+Mystring& Mystring::operator*=(int rhs){
+    char *buff=new char[std::strlen(str)*rhs+1];
+    buff[0] = '\0';               // start empty, not with strcpy
+    for (int i = 0; i < rhs; i++) {
+        std::strcat(buff, str);
+    }
+    delete [] str; //free old str
+    str=buff;
+    return *this;
+}    
