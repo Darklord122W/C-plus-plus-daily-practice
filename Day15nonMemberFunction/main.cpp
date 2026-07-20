@@ -11,7 +11,6 @@ int main() {
     // cout << boolalpha << endl;
     Mystring a {"frank"};
     Mystring b {"frank"};
-    b=a.operator-();
     cout<<b.get_str()<<endl;
     if(a==b){
     cout << "same" << endl;         // true

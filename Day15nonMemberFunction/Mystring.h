@@ -5,7 +5,17 @@ class Mystring
 {
     friend std::ostream &operator<<(std::ostream &os, const Mystring &rhs);
     friend std::istream &operator>>(std::istream &in, Mystring &rhs);
-
+    friend Mystring operator-(const Mystring& rhs); // make lowercase
+    friend bool operator==(const Mystring& lhs,const Mystring& rhs);
+    friend bool operator!=(const Mystring& lhs, const Mystring& rhs);
+    friend bool operator<(const Mystring& lhs, const Mystring& rhs);
+    friend bool operator>(const Mystring& lhs, const Mystring& rhs);
+    friend Mystring operator+(const Mystring& lhs, const Mystring& rhs); //combine str
+    friend Mystring& operator+=(Mystring& lhs, const Mystring& rhs); 
+    friend Mystring operator*(const Mystring& lhs, int rhs); //multiply number
+    friend Mystring& operator*=(Mystring& lhs,int rhs); 
+    friend Mystring & operator++(Mystring& lhs); 
+    friend Mystring operator++(Mystring& lhs,int);   // post-increment
 private:
     char *str; // pointer to a char[] that holds a C-style string
 public:
@@ -23,17 +33,7 @@ public:
     int get_length() const; // getters
     const char *get_str() const;
 
-    Mystring operator-() const; // make lowercase
-    bool operator==(const Mystring& rhs) const;
-    bool operator!=(const Mystring& rhs) const;
-    bool operator<(const Mystring& rhs) const;
-    bool operator>(const Mystring& rhs) const;
-    Mystring operator+(const Mystring& rhs) const; //combine str
-    Mystring& operator+=(const Mystring& rhs); 
-    Mystring operator*(int rhs)const; //multiply number
-    Mystring& operator*=(int rhs); 
-    Mystring & operator++(); 
-    Mystring operator++(int);   // post-increment
+
 
 };
 

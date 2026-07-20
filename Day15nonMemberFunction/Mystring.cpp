@@ -90,9 +90,9 @@ std::istream &operator>>(std::istream &in, Mystring &rhs) {
     return in;
 }
 
-Mystring Mystring::operator-() const{
-    char *buff=new char[std::strlen(str)+1];
-    std::strcpy(buff,str);
+Mystring operator-(const Mystring& rhs) {
+    char *buff=new char[std::strlen(rhs.str)+1];
+    std::strcpy(buff,rhs.str);
     for(size_t i=0;i<std::strlen(buff);i++){
         buff[i]=std::tolower(buff[i]);
     }
@@ -102,35 +102,35 @@ Mystring Mystring::operator-() const{
 
 } // make lowercase
     
-bool Mystring::operator==(const Mystring& rhs) const{
-    if(std::strcmp(str,rhs.str)==0){
+bool operator==(const Mystring& lhs,const Mystring& rhs){
+    if(std::strcmp(lhs.str,rhs.str)==0){
         return true;
     } 
     else{
         return false;
     }
 }
-bool Mystring::operator!=(const Mystring& rhs) const{
-    if(std::strcmp(str,rhs.str)!=0){
+bool operator!=(const Mystring& lhs, const Mystring& rhs){
+    if(std::strcmp(lhs.str,rhs.str)!=0){
         return true;
     } 
     return false;
 }
-bool Mystring::operator<(const Mystring& rhs) const{
-    if(std::strlen(str)<std::strlen(rhs.str)){
+bool operator<(const Mystring& lhs, const Mystring& rhs){
+    if(std::strlen(lhs.str)<std::strlen(rhs.str)){
         return true;
     } 
     return false;
 }
-bool Mystring::operator>(const Mystring& rhs) const{
-    if(std::strlen(str)>std::strlen(rhs.str)){
+bool operator>(const Mystring& lhs, const Mystring& rhs){
+    if(std::strlen(lhs.str)>std::strlen(rhs.str)){
         return true;
     } 
     return false;
 }
-Mystring Mystring::operator+(const Mystring& rhs) const{
-    char *buff=new char[std::strlen(str)+std::strlen(str)+1];
-    std::strcpy(buff, str);
+Mystring operator+(const Mystring& lhs, const Mystring& rhs){
+    char *buff=new char[std::strlen(lhs.str)+std::strlen(rhs.str)+1];
+    std::strcpy(buff, lhs.str);
     std::strcat(buff, rhs.str);
     Mystring temp{buff};
     delete [] buff;
@@ -138,20 +138,20 @@ Mystring Mystring::operator+(const Mystring& rhs) const{
 
 } 
 
-Mystring& Mystring::operator+=(const Mystring& rhs){
-    char *buff=new char[std::strlen(this->str)+std::strlen(rhs.str)+1];
-    std::strcpy(buff, str);
+Mystring& operator+=(Mystring& lhs, const Mystring& rhs){
+    char *buff=new char[std::strlen(lhs.str)+std::strlen(rhs.str)+1];
+    std::strcpy(buff, lhs.str);
     std::strcat(buff, rhs.str);
-    delete [] str; //free old str
-    str=buff;
-    return *this;
+    delete [] lhs.str; //free old str
+    lhs.str=buff;
+    return lhs;
 }    
 
-Mystring Mystring::operator*(int rhs) const{
-    char *buff=new char[std::strlen(str)*rhs+1];
-    std::strcpy(buff, str);
+Mystring operator*(const Mystring& lhs, const int rhs){
+    char *buff=new char[std::strlen(lhs.str)*rhs+1];
+    std::strcpy(buff, lhs.str);
     for(int i=0;i<rhs-1;i++){
-    std::strcat(buff,str);
+    std::strcat(buff,lhs.str);
     }
     Mystring temp{buff};
     delete [] buff;
@@ -159,31 +159,31 @@ Mystring Mystring::operator*(int rhs) const{
 
 } 
 
-Mystring& Mystring::operator*=(int rhs){
-    char *buff=new char[std::strlen(str)*rhs+1];
+Mystring& operator*=(Mystring& lhs,int rhs){
+    char *buff=new char[std::strlen(lhs.str)*rhs+1];
     buff[0] = '\0';               // start empty, not with strcpy
     for (int i = 0; i < rhs; i++) {
-        std::strcat(buff, str);
+        std::strcat(buff, lhs.str);
     }
-    delete [] str; //free old str
-    str=buff;
-    return *this;
+    delete [] lhs.str; //free old str
+    lhs.str=buff;
+    return lhs;
 }    
 
-Mystring & Mystring::operator++()   {  // pre-increment
+Mystring & operator++(Mystring& rhs) {  // pre-increment
    // do what ever you want increment do to - maybe make all characters uppercase?
-    char *buff=new char[std::strlen(str)+1];
-    std::strcpy(buff,str);
+    char *buff=new char[std::strlen(rhs.str)+1];
+    std::strcpy(buff,rhs.str);
     for(size_t i=0;i<std::strlen(buff);i++){
         buff[i]=std::toupper(buff[i]);
     }
-    delete [] str;
-    str=buff;
-    return *this;
+    delete [] rhs.str;
+    rhs.str=buff;
+    return rhs;
 }
 
-Mystring Mystring::operator++(int){
-   Mystring temp (*this);       // make a copy
-   operator++();                    // call pre-increment - make sure you call pre-increment!
+Mystring operator++(Mystring& lhs,int){
+   Mystring temp (lhs);       // make a copy
+   ++lhs;                    // call pre-increment - make sure you call pre-increment!
    return temp;                     // return the old value
 }
