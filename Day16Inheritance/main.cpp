@@ -4,6 +4,8 @@
 #include <vector>
 #include "Savings_Account.h"
 #include "Account_Util.h"
+#include "Checking_account.h"
+#include "Trust_account.h"
 
 using namespace std;
 

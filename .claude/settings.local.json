@@ -4,7 +4,9 @@
       "Bash(g++ -std=c++17 Circle.cpp main.cpp -o circle_test)",
       "Bash(./circle_test)",
       "Bash(g++ -std=c++17 -Wall main.cpp Mystring.cpp -o main)",
-      "Bash(./main)"
+      "Bash(./main)",
+      "Bash(g++ -std=c++14 -c Trust_account.cpp -o /tmp/claude-1000/-home-darklord01-Documents-cppPractice-C-plus-plus-daily-practice/15e050d7-6051-4232-adcb-5d3af0fd3033/scratchpad/trust.o)",
+      "Bash(g++ -std=c++14 -Wall -c Trust_account.cpp -o /tmp/claude-1000/-home-darklord01-Documents-cppPractice-C-plus-plus-daily-practice/15e050d7-6051-4232-adcb-5d3af0fd3033/scratchpad/t.o)"
     ]
   }
 }
