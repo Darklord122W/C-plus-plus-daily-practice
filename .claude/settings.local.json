@@ -6,7 +6,9 @@
       "Bash(g++ -std=c++17 -Wall main.cpp Mystring.cpp -o main)",
       "Bash(./main)",
       "Bash(g++ -std=c++14 -c Trust_account.cpp -o /tmp/claude-1000/-home-darklord01-Documents-cppPractice-C-plus-plus-daily-practice/15e050d7-6051-4232-adcb-5d3af0fd3033/scratchpad/trust.o)",
-      "Bash(g++ -std=c++14 -Wall -c Trust_account.cpp -o /tmp/claude-1000/-home-darklord01-Documents-cppPractice-C-plus-plus-daily-practice/15e050d7-6051-4232-adcb-5d3af0fd3033/scratchpad/t.o)"
+      "Bash(g++ -std=c++14 -Wall -c Trust_account.cpp -o /tmp/claude-1000/-home-darklord01-Documents-cppPractice-C-plus-plus-daily-practice/15e050d7-6051-4232-adcb-5d3af0fd3033/scratchpad/t.o)",
+      "Bash(g++ -std=c++17 -Wall Account.cpp Savings_Account.cpp Checking_account.cpp Trust_account.cpp Account_Util.cpp main.cpp -o /tmp/claude-1006/-home-zhiyuan-Documents-C-plus-plus-daily-practice/217ccf2c-ae95-44c5-aad8-7237e3119923/scratchpad/main_test)",
+      "Bash(/tmp/claude-1006/-home-zhiyuan-Documents-C-plus-plus-daily-practice/217ccf2c-ae95-44c5-aad8-7237e3119923/scratchpad/main_test)"
     ]
   }
 }

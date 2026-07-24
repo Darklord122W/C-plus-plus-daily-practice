@@ -17,7 +17,6 @@ private:
     static constexpr double def_int_rate = 0.0;
 
 protected:
-    double int_rate;
     int withdraw_time=0;
 
 public:
